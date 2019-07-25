@@ -1,3 +1,9 @@
+# Mac file
+.DS_Store
+
+# RS Connect
+/rsconnect/
+
 # History files
 .Rhistory
 .Rapp.history
@@ -34,9 +40,3 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
-
-# Mac file
-.DS_Store
-
-# RS Connect
-/rsconnect/

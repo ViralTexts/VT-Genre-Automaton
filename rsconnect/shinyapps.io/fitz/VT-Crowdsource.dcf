@@ -1,0 +1,11 @@
+name: VT-Crowdsource
+title: VT-Crowdsource
+account: fitz
+server: shinyapps.io
+appId: 208281
+bundleId: 958213
+url: https://fitz.shinyapps.io/VT-Crowdsource/
+when: 1503980382.46631
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app-old.R|functions.R|data/.DS_Store

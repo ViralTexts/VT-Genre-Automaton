@@ -2,7 +2,7 @@
 .DS_Store
 
 # RS Connect
-/rsconnect/*
+rsconnect/*
 
 # History files
 .Rhistory

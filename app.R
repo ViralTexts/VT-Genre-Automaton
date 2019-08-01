@@ -4,6 +4,16 @@ library(tidyverse)
 library(shinyjs)
 library(V8)
 # Define the first form: basic information
+STORAGE_TYPES <- list(
+  FLATFILE = "flatfile",
+  SQLITE = "sqlite",
+  MYSQL = "mysql",
+  MONGO = "mongo",
+  GOOGLE_SHEETS = "gsheets",
+  DROPBOX = "dropbox",
+  AMAZON_S3 = "s3"
+)
+
 basicInfoForm <- list(
   storage = list(
     type = STORAGE_TYPES$FLATFILE,

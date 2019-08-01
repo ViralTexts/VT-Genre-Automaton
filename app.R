@@ -1,18 +1,10 @@
+#devtools::install_github("daattali/shinyforms")
 library(shiny)
-#library(shinyforms)
+library(shinyforms)
 library(tidyverse)
 library(shinyjs)
 library(V8)
 # Define the first form: basic information
-STORAGE_TYPES <- list(
-  FLATFILE = "flatfile",
-  SQLITE = "sqlite",
-  MYSQL = "mysql",
-  MONGO = "mongo",
-  GOOGLE_SHEETS = "gsheets",
-  DROPBOX = "dropbox",
-  AMAZON_S3 = "s3"
-)
 
 basicInfoForm <- list(
   storage = list(
